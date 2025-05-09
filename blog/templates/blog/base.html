@@ -52,6 +52,65 @@
                 margin-top: 1rem;
             }
         }
+        /* Responsive Image */
+.article-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .media.content-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .media.content-section .media-body {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .article-img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .article-title {
+        font-size: 1.2rem;
+    }
+
+    .article-content {
+        font-size: 0.95rem;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .article-title {
+        font-size: 1rem;
+    }
+
+    .article-content {
+        font-size: 0.9rem;
+    }
+
+    .article-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .article-metadata a,
+    .article-metadata small {
+        display: block;
+        margin: 2px 0;
+    }
+}
+
     </style>
 
     {% if title %}
