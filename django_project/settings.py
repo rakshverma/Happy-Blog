@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-uzr)+-brd76@ba3frmai9a1&(6#p6iasl)b@4zq-t__2y%s9*a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['happy-blog-1.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
